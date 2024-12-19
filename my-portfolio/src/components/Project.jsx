@@ -58,7 +58,7 @@ const ProjectCard = ({ project }) => {
 
   return (
     <div
-      className="bg-gray-800 rounded-lg transition-all transform hover:-translate-y-2 hover:shadow-lg cursor-pointer mt-0"
+      className="bg-gray-800 rounded-lg transition-all transform hover:-translate-y-2 hover:shadow-lg cursor-pointer mt-2"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
